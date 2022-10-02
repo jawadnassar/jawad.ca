@@ -6,7 +6,7 @@ My personal website and blog.
 
 * Hosted on [Github Pages](https://pages.github.com/).
 
-* Front end design if forked from [jekyll-now](https://github.com/barryclark/jekyll-now).
+* Front end design is forked from [jekyll-now](https://github.com/barryclark/jekyll-now).
 
 ## License
 
