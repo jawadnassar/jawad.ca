@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is a blog with random tech notes so I don't forget things. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+This blog is powered by [Jekyll](http://jekyllrb.com){:target="_blank"}, authored in [Markdown](https://en.wikipedia.org/wiki/Markdown){:target="_blank"} and hosted on [Github pages](https://pages.github.com/){:target="_blank"}.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jawad at jawad.ca](mailto:jawad@jawad.ca)

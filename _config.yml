@@ -35,19 +35,14 @@ author: Jawad
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 logo: /assets/images/light_bauhaus_logo.png
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
 permalink: /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: jawad@jawad.ca
-  github: andrewhwanpark/brutalist-blog
-  instagram: 
+  github: jawadnassar/jawad.ca
   linkedin: 
   rss: rss # just type anything here for a working RSS icon
-  twitter: 
 
 plugins:
   - jekyll-seo-tag
