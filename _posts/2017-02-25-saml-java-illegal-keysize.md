@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Saml And Java throwing Illegal Key Size Exception"
+title: "Java Security: Illegal key size exception"
 ---
 
 During the decryption of SAML IdP response the following exception was thrown:
