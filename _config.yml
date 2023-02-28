@@ -1,7 +1,6 @@
 #
 # This file contains configuration flags to customize your site
 #
-
 # Name of your site (displayed in the navbar)
 name: Jawad.ca
 
@@ -26,17 +25,8 @@ baseurl: ""
 # global author information
 author: Jawad
 
-# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_bauhaus_logo.png
-
 permalink: /:year/:month/:day/:title/
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  email: jawad@jawad.ca
-  github: jawadnassar/jawad.ca
-  linkedin: 
-  rss: rss # just type anything here for a working RSS icon
 
 plugins:
   - jekyll-seo-tag
