@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+Hi, I'm Jawad!
+
+
 This is a blog with random tech notes so I don't forget things. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
 
 This blog is powered by [Jekyll](http://jekyllrb.com){:target="_blank"}, authored in [Markdown](https://en.wikipedia.org/wiki/Markdown){:target="_blank"} and hosted on [Github pages](https://pages.github.com/){:target="_blank"}.
@@ -23,3 +26,4 @@ This blog is powered by [Jekyll](http://jekyllrb.com){:target="_blank"}, authore
 - Everything I share is solely for educational purposes and comes without any guarantee or liability. Please use the information at your own risk.
 - It is essential to refrain from conducting any pentesting activities on applications, devices, or networks that you do not own or lack permission to access.
 - This website does not track or log any of your activities. The bootstrap JS file is loaded through a CDN, and you can review the code [here](https://github.com/jawadnassar/jawad.ca/blob/gh-pages/_layouts/default.html){:target="_blank"}. Nevertheless, the blog content remains readable even if JavaScript execution is blocked.
+- The postings on this site are my own and don't necessarily represent my employer’s positions, strategies or opinions. 
