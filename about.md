@@ -8,12 +8,14 @@ This is a blog with random tech notes so I don't forget things. If you find some
 
 This blog is powered by [Jekyll](http://jekyllrb.com){:target="_blank"}, authored in [Markdown](https://en.wikipedia.org/wiki/Markdown){:target="_blank"} and hosted on [Github pages](https://pages.github.com/){:target="_blank"}.
 
+
 ### Contact me
 - [Twitter](https://twitter.com/jawadnassar){:target="_blank"}
 - [GitHub](https://github.com/jawadnassar){:target="_blank"}
 - [Mastodon](https://infosec.exchange/@jawad){:target="_blank"}
 - [LinkedIn](https://www.linkedin.com/in/jawadnassar/){:target="_blank"}
 - Signal, Protonmail, Matrix or PGP keys are shared upon request
+
 
 ### Disclaimer
 - I will be utilizing LLMs to improve and enhance my written texts, thereby saving valuable time that would otherwise be spent on reviewing my grammar and English mistakes.
