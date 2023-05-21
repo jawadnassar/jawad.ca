@@ -5,7 +5,7 @@
 name: Jawad.ca
 
 # Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
-title: Jawad.ca
+title: Jawad's Blog
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
 tagline: Clean code, security and digital privacy.
@@ -20,11 +20,10 @@ url: jawad.ca
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/jawad.ca"
 
 # global author information
 author: Jawad
-
 permalink: /:year/:month/:day/:title/
 
 
