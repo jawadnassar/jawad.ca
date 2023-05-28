@@ -7,7 +7,7 @@ date: 2023-05-28
 <img src="/images/sqli-lab02/sqli-lab02-01.png" style="max-width:90%;">
  
  
-Lab #2 by PortSwigger Web Security Academy: https://portswigger.net/web-security/sql-injection/lab-login-bypass 
+Lab #2 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/lab-login-bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass){:target="_blank"}
  
  <br/>
  
@@ -41,7 +41,7 @@ And we're in!
 <br/>
 Let's script the solution in Python. 
 
-It's a POST request that expects three parameters: `csrf`, `username`, and `password`.
+It's a `POST` request that expects three parameters: `csrf`, `username`, and `password`.
 
 
 ```python
@@ -65,8 +65,8 @@ if __name__ == "__main__":
 		url = sys.argv[1].strip()  
 		username = sys.argv[2].strip()  
 	except IndexError:  
-	print('Usage: %s <url> <username>, e.g www.example.com "1=1"' % sys.argv[0]) 
-	sys.exit(-1)  
+		print('Usage: %s <url> <username>, e.g www.example.com "1=1"' % sys.argv[0]) 
+		sys.exit(-1)  
   
 session = requests.Session()  
   
@@ -96,10 +96,8 @@ Testing the Python script:
  
  
 <br/>
-It returns `It worked.` 
-
-Perfect! We can also validate it through Burp.
- <br/>
+It worked! We can also validate it through Burp.
+<br/>
  
 <img src="/images/sqli-lab02/sqli-lab02-06.png" style="max-width:90%;">
 
