@@ -5,18 +5,25 @@ date: 2023-05-27
 ---
 
 <img src="/images/sqli-lab01/sqli-lab1-4.png" style="max-width:70%;">
+
 Lab #1 by PortSwigger Web Security Academy: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
+
 
 ### Description
 
 This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
+
 `SELECT * FROM products WHERE category = 'Gifts' AND released = 1`
+
 To solve the lab, perform a SQL injection attack that causes the application to display details of all products in any category, both released and unreleased.
 
 
 ### Steps
 
-Upon accessing the lab and filtering on the `Pets` category, I noticed a GET parameter named `category` in the URL. To test the application's behavior, I initially tried adding a single quote (`'`) by navigating to `https://0abe00670490492181da436400ec000b.web-security-academy.net/filter?category='`.
+Upon accessing the lab and filtering on the `Pets` category, I noticed a GET parameter named `category` in the URL. 
+
+To test the application's behavior, I initially tried adding a single quote (`'`) by navigating to `https://0abe00670490492181da436400ec000b.web-security-academy.net/filter?category='`.
+
 This resulted in an `Internal Server Error`, which confirms that the application is indeed vulnerable.
 
 <img src="/images/sqli-lab01/sqli-lab1-1.png" style="max-width:70%;">
@@ -24,6 +31,7 @@ This resulted in an `Internal Server Error`, which confirms that the application
 By adding a single quote (`'`) to the `category` parameter, the application executes the following query against the database:
 
 `SELECT * FROM products WHERE category = ''' AND released = 1`
+
 
 
 #### Preparing a SQL injection payload:
