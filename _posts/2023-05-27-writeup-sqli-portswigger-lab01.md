@@ -6,10 +6,11 @@ date: 2023-05-27
 
 <img src="/images/sqli-lab01/sqli-lab1-4.png" style="max-width:90%;">
 
+ <br/>
 
 Lab #1 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data){:target="_blank"}
 
-
+ <br/>
 
 ### Description
 
@@ -21,6 +22,7 @@ SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 
 To solve the lab, perform a SQL injection attack that causes the application to display details of all products in any category, both released and unreleased.
 
+ <br/>
 
 ### Steps
 
@@ -38,7 +40,7 @@ By adding a single quote (`'`) to the `category` parameter, the application exec
 SELECT * FROM products WHERE category = ''' AND released = 1
 ```
 
-
+ <br/>
 
 #### Preparing a SQL injection payload:
 
