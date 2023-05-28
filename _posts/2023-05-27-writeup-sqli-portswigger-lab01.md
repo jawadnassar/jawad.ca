@@ -15,7 +15,9 @@ Lab #1 by PortSwigger Web Security Academy: [https://portswigger.net/web-securit
 
 This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
 
-`SELECT * FROM products WHERE category = 'Gifts' AND released = 1`
+```sql
+SELECT * FROM products WHERE category = 'Gifts' AND released = 1
+```
 
 To solve the lab, perform a SQL injection attack that causes the application to display details of all products in any category, both released and unreleased.
 
@@ -32,7 +34,9 @@ This resulted in an `Internal Server Error`, which confirms that the application
 
 By adding a single quote (`'`) to the `category` parameter, the application executes the following query against the database:
 
-`SELECT * FROM products WHERE category = ''' AND released = 1`
+```sql
+SELECT * FROM products WHERE category = ''' AND released = 1
+```
 
 
 
@@ -41,7 +45,9 @@ By adding a single quote (`'`) to the `category` parameter, the application exec
 Let's try replacing `'` with `'--`. The key thing here is that the double-dash sequence `--` is a comment indicator in SQL, and means that the rest of the query is interpreted as a comment. This effectively removes the remainder of the query, so it no longer includes `AND released = 1`. 
 
 Expected Query: 
-`SELECT * FROM products WHERE category = ''-- AND released = 1`
+```sql
+SELECT * FROM products WHERE category = ''-- AND released = 1
+```
 
 URL: 
 `https://0abe00670490492181da436400ec000b.web-security-academy.net/filter?category='--`
@@ -54,7 +60,9 @@ As we can observe, the error disappeared, and the page returned no products. Per
 
 Next, let's try `' OR 1=1`, which will return the result of the following query:
 
-`SELECT * FROM products WHERE category = '' OR 1=1 -- AND released = 1`
+```sql
+SELECT * FROM products WHERE category = '' OR 1=1 -- AND released = 1
+```
 
 
 The modified query will return all items where either the category is empty (`''`) or `1=1`. Since `1=1` is always true, the query will return all items.
