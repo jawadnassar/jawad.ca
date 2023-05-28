@@ -4,9 +4,11 @@ title: "Write-up: SQL injection vulnerability in WHERE clause allowing retrieval
 date: 2023-05-27
 ---
 
-<img src="/images/sqli-lab01/sqli-lab1-4.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-4.png" style="max-width:90%;">
 
-Lab #1 by PortSwigger Web Security Academy: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
+
+Lab #1 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data){:target="_blank"}
+
 
 
 ### Description
@@ -26,7 +28,7 @@ To test the application's behavior, I initially tried adding a single quote (`'`
 
 This resulted in an `Internal Server Error`, which confirms that the application is indeed vulnerable.
 
-<img src="/images/sqli-lab01/sqli-lab1-1.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-1.png" style="max-width:90%;">
 
 By adding a single quote (`'`) to the `category` parameter, the application executes the following query against the database:
 
@@ -47,7 +49,7 @@ URL:
 
 As we can observe, the error disappeared, and the page returned no products. Perfect!
 
-<img src="/images/sqli-lab01/sqli-lab1-2.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-2.png" style="max-width:90%;">
 
 
 Next, let's try `' OR 1=1`, which will return the result of the following query:
@@ -59,30 +61,30 @@ The modified query will return all items where either the category is empty (`''
 
 This solves Lab #1! Congratulations.
 
-<img src="/images/sqli-lab01/sqli-lab1-3.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-3.png" style="max-width:90%;">
 
 
 
 However, we won't stop here. Let's go the extra mile and automate the SQLi payload. To begin, download Burp Suite Community Edition and ensure that the Proxy listener is enabled.
 
-<img src="/images/sqli-lab01/sqli-lab1-6.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-6.png" style="max-width:90%;">
 
 
 Download the FoxyProxy extension and add the Burp Suite proxy address and port.
 
-<img src="/images/sqli-lab01/sqli-lab1-5.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-5.png" style="max-width:90%;">
 
 
-<img src="/images/sqli-lab01/sqli-lab1-7.png" style="max-width:60%;">
+<img src="/images/sqli-lab01/sqli-lab1-7.png" style="max-width:90%;">
 
 
 Enable the Burp proxy and navigate to the interface where Burp is running (`127.0.0.1:8080`). Save the CA certificate when prompted.
-<img src="/images/sqli-lab01/sqli-lab1-10.png" style="max-width:70%;">
+<img src="/images/sqli-lab01/sqli-lab1-10.png" style="max-width:90%;">
 
 
 To prevent Firefox SSL errors when using Burp, import the certificate we just downloaded by going to `about:preferences#privacy` in Firefox.
 
-<img src="/images/sqli-lab01/sqli-lab1-11.png" style="max-width:60%;">
+<img src="/images/sqli-lab01/sqli-lab1-11.png" style="max-width:90%;">
 
 
 We are now ready to intercept our HTTP(s) traffic through Burp. As shown below, the intercept is on, and we can observe the GET `/filter?category=param` request.
