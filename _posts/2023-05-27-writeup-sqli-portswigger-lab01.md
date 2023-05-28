@@ -131,7 +131,7 @@ else:
 
 To test our script with the Lab's temporary URL and the payload we initially tested (`' OR 1=1--`), you can use the following command:
 
-```console
+```zsh
 > python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
 ```
 
