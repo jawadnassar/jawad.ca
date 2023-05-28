@@ -116,7 +116,7 @@ if __name__ == "__main__":
 		payload = sys.argv[2].strip()  
 	except IndexError:  
 		print('Usage: %s <url> <payload> ; e.g www.example.com "1=1"' % sys.argv[0])  
-sys.exit(-1)  
+		sys.exit(-1)  
   
 uri = '/filter?category='  
 r = requests.get(url + uri + payload, verify=False, proxies=proxies)  
