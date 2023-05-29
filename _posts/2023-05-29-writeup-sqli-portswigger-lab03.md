@@ -4,8 +4,6 @@ title: "Write-up: SQL injection UNION attack, determining the number of columns 
 date: 2023-05-29
 ---
 
-# Write-up: SQL injection UNION attack, determining the number of columns returned by the query
-
 <img src="/images/sqli-lab03/sqli-lab03-01.png" style="max-width:90%;">
 
 
