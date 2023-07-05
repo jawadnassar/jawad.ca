@@ -15,6 +15,7 @@ img {
 .navbar {
   margin-bottom: 2rem;
   border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+  margin-top: 1rem;
 }
 
 .archive-year {
@@ -64,14 +65,6 @@ pre.highlight {
   padding: 1rem;
 }
 
-.dark-avatar {
-  display: none !important;
-}
-
-.light-avatar,
-.dark-avatar {
-  margin-right: 0.25rem !important;
-}
 
 @media (prefers-color-scheme: dark) {
   .footer-icon-links {
@@ -87,12 +80,5 @@ pre.highlight {
 
   .archive-title {
     color: #e1e1e1;
-  }
-
-  .light-avatar {
-    display: none !important;
-  }
-  .dark-avatar {
-    display: inline-block !important;
   }
 }
