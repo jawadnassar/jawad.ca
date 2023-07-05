@@ -4,9 +4,12 @@ layout: default
 
 <div class="archive">
   {% for post in site.posts %}
-    <div class="archive-item">
-      <span class="post-date archive-date fs-4">{{ post.date | date_to_string  }}</span>
-      <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
+    <div class="archive-item" style="font-size: 18px;">
+      <ul>
+        <li>
+          {{ post.date | date_to_string  }} &raquo; <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
+        </li>
+      </ul>
     </div>
   {% endfor %}
 </div>
