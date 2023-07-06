@@ -8,10 +8,10 @@ name: Jawad.ca
 title: Jawad's Blog
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: Clean code, security and digital privacy.
+tagline: AppSec, pentesting and digital privacy.
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Clean code, security and digital privacy.
+description: AppSec, pentesting and digital privacy.
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: jawad.ca
