@@ -26,6 +26,35 @@ a:active {
 
 
 
+table {
+  @extend .table;
+  @extend .table-striped;
+}
+
+blockquote {
+  @extend .blockquote;
+}
+
+img {
+  @extend .img-fluid;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.highlight {
+  background-color: #272822;
+}
+
+pre.highlight {
+  padding: 1rem;
+}
+
+
+
+
+
 
 .highlight pre{
     background-color:#272822
