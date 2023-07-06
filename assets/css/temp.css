@@ -6,13 +6,13 @@ body {
 }
 
 a:link {
-  color: #431c53;
+  color: #9932CC;
 }
 
 a:visited {
-  color: #32174d;
+  color: #8B008B;
 }
 
 a:active {
-  color: #491e3c;
+  color: #EE82EE;
 }
