@@ -26,5 +26,4 @@ This blog is powered by [Jekyll](http://jekyllrb.com){:target="_blank"}, authore
 - I am not an expert and acknowledge that I may make mistakes. This blog serve as a means for me to document my learning journey.
 - Everything I share is solely for educational purposes and comes without any guarantee or liability. Please use the information at your own risk.
 - It is essential to refrain from conducting any pentesting activities on applications, devices, or networks that you do not own or lack permission to access.
-- This website does not track or log any of your activities.
 - The postings on this site are my own and don't necessarily represent my employer’s positions, strategies or opinions. 
