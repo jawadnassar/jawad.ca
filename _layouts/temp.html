@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us" class="h-100">
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark only" />
+    <link rel="stylesheet" href="{{ '/assets/css/temp.css' | relative_url }}" />
+    {% seo %} {% feed_meta %} 
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div class="container">
+      {% include navigation.html %}
+      <div class="body">{{ content }}</div>
+    </div>
+  </body>
+</html>
