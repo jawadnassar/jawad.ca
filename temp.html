@@ -2,14 +2,12 @@
 layout: temp
 ---
 
-<div class="archive">
-  <div class="archive-item" style="font-size: 18px;">
-    <ul style="list-style-type: none;">
-      {% for post in site.posts %}
-        <li  style="margin-bottom: 20px;">
-          {{ post.date | date_to_string  }} &raquo; <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
-        </li>
-       {% endfor %}
-    </ul>
-  </div>
+<div style="font-size: 18px;">
+  <ul style="list-style-type: none;">
+    {% for post in site.posts %}
+      <li  style="margin-bottom: 20px;">
+        {{ post.date | date_to_string  }} &raquo; <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
+      </li>
+     {% endfor %}
+  </ul>
 </div>
