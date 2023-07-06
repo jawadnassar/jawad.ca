@@ -3,6 +3,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #bebebe;
+  margin: 35px;
+}
+
+.navbar {
+  margin-bottom: 2.5rem;
 }
 
 a:link {
