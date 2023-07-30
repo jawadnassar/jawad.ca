@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Jawad!
+Hi, I'm Jawad! I am a senior engineering manager with more than a decade of experience in SaaS & PaaS-based architectures. I've been heavily engaged in designing many solutions from their inception until their implementation across multiple large-scale enterprise systems.
 
-
-This is a blog with random tech notes so I don't forget things. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
+This blog contains random tech notes, documenting my learning journey to pivot further into application security. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
 
 This blog is powered by [Jekyll](http://jekyllrb.com){:target="_blank"}, authored in [Markdown](https://en.wikipedia.org/wiki/Markdown){:target="_blank"} and hosted on [Github pages](https://pages.github.com/){:target="_blank"}.
 
