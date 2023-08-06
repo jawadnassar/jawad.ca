@@ -6,54 +6,38 @@ body {
   color: #bebebe;
   margin: 30px;
 }
-
 .navlinks {
   margin-bottom: 2rem;
 }
-
 a:link {
   color: #EE82EE;
 }
-
 a:visited {
   color: #EE82EE;
 }
-
 a:active {
   color: #8A2BE2;
 }
-
-
+table, th, td {
+  border: 1px solid;
+}
 /* table {
   @extend .table;
   @extend .table-striped;
 } */
-
 blockquote {
   @extend .blockquote;
 }
-
 img {
   @extend .img-fluid;
   margin-bottom: 1rem;
 }
-
-
-
-
 .highlight {
   background-color: #272822;
 }
-
 pre.highlight {
   padding: 1rem;
 }
-
-
-
-
-
-
 .highlight pre{
     background-color:#272822
 }
