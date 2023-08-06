@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Write-up: SQLi UNION attack, retrieving data from other tables"
+date: 2023-06-17
+---
+
+Lab: [SQL injection UNION attack, retrieving data from other tables](https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-data-from-other-tables){:target="_blank"}
+
+<br/>
+
+### Description
+
+This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response, so you can use a UNION attack to retrieve data from other tables. 
+
+The database contains a different table called `users`, with columns called `username` and `password`.
+
+To solve the lab, perform a SQL injection UNION attack that retrieves all usernames and passwords, and use the information to log in as the `administrator` user.
+
+<br/>
+
+### Steps
+
+First, we determine that the number of columns is 2, as the injection below doesn't produce an error: `category=Gifts' ORDER BY 2--`
+
+We can also figure out that both columns are integers, as they don't generate errors when using: `category=Gifts' UNION SELECT 'a', 'a'--`
+
+Knowing that we have a table named `users` with 2 columns, namely, `username` and `password`, let's perform a join on this table to list all the users: `category=Gifts' UNION SELECT username, password FROM users--`
+
+Et voilà! The user 'administrator' is returned with the password 'u35dnobwat09aipkb3xn'.
+
+<img src="/images/june2023/3.png" style="max-width:90%;">
+
+
+lets try it out:
+
+<img src="/images/june2023/4.png" style="max-width:90%;">
+
+
+and it's solved! 
