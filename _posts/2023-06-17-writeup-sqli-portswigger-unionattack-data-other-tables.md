@@ -20,7 +20,7 @@ To solve the lab, perform a SQL injection UNION attack that retrieves all usern
 
 ### Steps
 
-First, we determine that the number of columns is atleast 2, as the injection below doesn't produce an error: `category=Gifts' ORDER BY 2--`
+First, we determine that the number of columns is at least 2, as the injection below doesn't produce an error: `category=Gifts' ORDER BY 2--`
 
 We can also figure out that both columns are Strings, as they don't generate errors when using: `category=Gifts' UNION SELECT 'a', 'a'--`
 
