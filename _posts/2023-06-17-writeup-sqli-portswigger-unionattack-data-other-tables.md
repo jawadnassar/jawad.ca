@@ -20,9 +20,9 @@ To solve the lab, perform a SQL injection UNION attack that retrieves all usern
 
 ### Steps
 
-First, we determine that the number of columns is 2, as the injection below doesn't produce an error: `category=Gifts' ORDER BY 2--`
+First, we determine that the number of columns is atleast 2, as the injection below doesn't produce an error: `category=Gifts' ORDER BY 2--`
 
-We can also figure out that both columns are integers, as they don't generate errors when using: `category=Gifts' UNION SELECT 'a', 'a'--`
+We can also figure out that both columns are Strings, as they don't generate errors when using: `category=Gifts' UNION SELECT 'a', 'a'--`
 
 Knowing that we have a table named `users` with 2 columns, namely, `username` and `password`, let's perform a join on this table to list all the users: `category=Gifts' UNION SELECT username, password FROM users--`
 
