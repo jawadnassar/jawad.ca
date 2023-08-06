@@ -24,13 +24,10 @@ a:active {
 }
 
 
-
-
-
-table {
+/* table {
   @extend .table;
   @extend .table-striped;
-}
+} */
 
 blockquote {
   @extend .blockquote;
