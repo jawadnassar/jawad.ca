@@ -31,7 +31,7 @@ The queries to determine the database version for some popular database types ar
 
 ### Steps
 
-Given that it's an Oracle DB, it is mandatory for every `SELECT` statement to include a `FROM` clause. Oracle offers a placeholder table named `DUAL`, which can be utilized for our purposes.
+Given that it's an Oracle DB, it is mandatory for every `SELECT` statement to include a `FROM` clause. Oracle offers a placeholder table named `DUAL`, which can be utilized to help us determine the number of columns and their types.
 
 For instance, through this union attack `?category=Pets' UNION SELECT banner,'a' FROM v$version--`, we can execute the subsequent query: `SELECT banner FROM v$version`.
 
