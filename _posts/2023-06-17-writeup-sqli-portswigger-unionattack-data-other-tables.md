@@ -26,7 +26,7 @@ We can also figure out that both columns are Strings, as they don't generate err
 
 Knowing that we have a table named `users` with 2 columns, namely, `username` and `password`, let's perform a join on this table to list all the users: `category=Gifts' UNION SELECT username, password FROM users--`
 
-Et voilà! The user 'administrator' is returned with the password 'u35dnobwat09aipkb3xn'.
+Et voilà! The user `administrator` is returned with the password `u35dnobwat09aipkb3xn`.
 
 <img src="/images/june2023/3.png" style="max-width:90%;">
 
