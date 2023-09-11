@@ -15,12 +15,5 @@ It was a fun exercise for an afternoon, and I definitely recommend checking it o
 - [Part 4](https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-part-1e0?sd=pf){:target="_blank"} - Blocking an attack
 
 
-I also recommend watching the following YouTube videos where the blog author is interviewed, and Gerald Auger walks through the above series.
-
-
-<iframe width="1024" height="720" src="https://www.youtube.com/embed/oOzihldLz7U" title="Uncover the Secrets of a Home SOC Analyst Lab! [Step-by-Step Walkthrough]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-<iframe width="1024" height="783" src="https://www.youtube.com/embed/p9RsKDIGKvc" title="Everything Security Operations Analyst Entry Level - Is it the Cyber Security Job for you?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+I also recommend watching the following YouTube videos where the blog author is [interviewed](https://www.youtube.com/watch?v=p9RsKDIGKvc){:target="_blank"} and Gerald Auger [walks through](https://www.youtube.com/watch?v=oOzihldLz7U){:target="_blank"} the above series.
 
