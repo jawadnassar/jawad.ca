@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Dabbling in SOC and EDRs"
-date: 2023-09-09
+title: "Why You should file your taxes yourself"
+date: 2023-09-10
 ---
 
 
