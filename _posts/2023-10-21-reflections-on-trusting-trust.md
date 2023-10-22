@@ -25,13 +25,11 @@ I was recently watching Jack Ryan on Amazon Prime, and in one scene, it showed h
 
 I encourage you to continue using these technologies but with an awareness of the challenges and potential risks they may pose.
 
-Let's wrap up with a couple of xkcd's memes that sum it up
+Let's wrap up with a couple of [xkcd's comics](https://xkcd.com){:target="_blank"} that sum it up
 
-![Privacy Opinions](https://imgs.xkcd.com/comics/privacy_opinions.png)
-
-Source: [xkcd - Privacy Opinions](https://xkcd.com/1269/){:target="_blank"}
+<img src="https://imgs.xkcd.com/comics/privacy_opinions.png" style="max-width:90%;">
 
 
-![Security](https://imgs.xkcd.com/comics/security.png)
+<img src="https://imgs.xkcd.com/comics/security.png" style="max-width:90%;">
 
-Source: [xkcd - Privacy Opinions](https://xkcd.com/538/){:target="_blank"}
+
