@@ -13,7 +13,7 @@ I understand that it's not always practical to scrutinize these solutions thorou
 - Are they a non-profit organization? Or could they be bought tomorrow and legally change their algorithms?
 - Is their code open source? Has it been audited by a trusted third party?
 - Are they using [reproducible builds](https://reproducible-builds.org/){:target="_blank"}? Have you compiled the code locally and compared the hashed value with the online ones?
-- Do you [trust the compilers in use ](https://www.schneier.com/blog/archives/2015/03/how_the_cia_mig.html){:target="_blank"} and believe that apps developed with them won't be compromised?
+- Do you [trust the compilers in use](https://www.schneier.com/blog/archives/2015/03/how_the_cia_mig.html){:target="_blank"} and believe that apps developed with them won't be compromised?
 - Do you trust the DNS serving you the open-source packages to build the app?
 - Do you trust the website displaying the checksums and hash values, ensuring it hasn't been intercepted?
 - Do you trust that there are no [backdoors in the cryptographic standards and toolkits in use](https://blog.cloudflare.com/how-the-nsa-may-have-put-a-backdoor-in-rsas-cryptography-a-technical-primer/){:target="_blank"}?
@@ -28,8 +28,10 @@ I encourage you to continue using these technologies but with an awareness of th
 Let's wrap up with a couple of xkcd's memes that sum it up
 
 ![Privacy Opinions](https://imgs.xkcd.com/comics/privacy_opinions.png)
+
 Source: [xkcd - Privacy Opinions](https://xkcd.com/1269/){:target="_blank"}
 
 
 ![Security](https://imgs.xkcd.com/comics/security.png)
+
 Source: [xkcd - Privacy Opinions](https://xkcd.com/538/){:target="_blank"}
