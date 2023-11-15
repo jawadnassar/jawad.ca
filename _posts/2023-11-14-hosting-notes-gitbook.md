@@ -11,6 +11,6 @@ To streamline and categorize my content, I am relocating older posts to GitBook 
 Key Advantages of the Move
 - **Editorial Simplicity:** GitBook's WYSIWYG editor ensures a straightforward and distraction-free writing process.
 - **Automated Backups:** GitBook's built-in Git repository backup functionality provides a secure backup solution.
-- **Efficient Search Functionality:** GitBook AI offers indexed and effective search functionality for easy content retrieval.
+- **Efficient Search Functionality:** GitBook offers indexed and effective search functionality for easy content retrieval.
 - **SEO Optimization:** GitBook's platform enhances search engine optimization, improving the discoverability of my technical content
   
