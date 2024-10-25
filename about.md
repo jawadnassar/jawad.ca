@@ -16,5 +16,4 @@ This blog contains random tech notes, documenting my learning journey to pivot f
 - [Mastodon](https://infosec.exchange/@jawad){:target="_blank"}
 - [LinkedIn](https://www.linkedin.com/in/jawadnassar/){:target="_blank"}
 - [RSS](https://jawad.ca/feed.xml){:target="_blank"}
-- Email: jawad [@ this domain]
 
