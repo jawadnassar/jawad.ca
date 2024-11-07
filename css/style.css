@@ -12,13 +12,13 @@ body {
   margin-bottom: 2rem;
 }
 a:link {
-  color: #EE82EE;
+  color: #50A2FF;
 }
 a:visited {
-  color: #EE82EE;
+  color: #50A2FF;
 }
 a:active {
-  color: #8A2BE2;
+  color: #50A2FF;
 }
 table, th, td {
   border: 1px solid;
