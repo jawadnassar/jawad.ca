@@ -8,6 +8,7 @@ body {
 }
 .navlinks {
   margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 a:link {
   color: #50A2FF;
@@ -31,6 +32,7 @@ blockquote {
 img {
   @extend .img-fluid;
   margin-bottom: 1rem;
+  max-width:90%;
 }
 .highlight {
   background-color: #272822;
