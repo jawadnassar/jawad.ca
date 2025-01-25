@@ -14,7 +14,7 @@ a:link {
   color: #50A2FF;
 }
 a:visited {
-  color: #50A2FF;
+  color: #47346e;
 }
 a:active {
   color: #50A2FF;
@@ -32,7 +32,7 @@ blockquote {
 img {
   @extend .img-fluid;
   margin-bottom: 1rem;
-  max-width:90%;
+  max-width:70%;
 }
 .highlight {
   background-color: #272822;
