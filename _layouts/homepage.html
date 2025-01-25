@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/css/bsdark.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
+    <script defer data-domain="jawad.ca" src="https://plausible.io/js/script.js"></script>
+    {% seo %} {% feed_meta %} 
+  </head>
+  <body class="container">
+      <p class="navlinks"><a href="/">Blog</a> | <a href="/about/">About</a> | <a href="https://notes.jawad.ca">InfoSec Notes</a></p>
+    <div class="body">{{ content }}</div>
+  </body>
+</html>
