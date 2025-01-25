@@ -10,7 +10,7 @@ This blog contains random tech notes, documenting my learning journey to pivot f
 
 
 ### Links
-- [Gitbook](https://notes.jawad.ca){:target="_blank"}
+- [GitBook](https://notes.jawad.ca){:target="_blank"}
 - [X ](https://x.com/jawadnassar){:target="_blank"}
 - [GitHub](https://github.com/jawadnassar){:target="_blank"}
 - [Mastodon](https://infosec.exchange/@jawad){:target="_blank"}
