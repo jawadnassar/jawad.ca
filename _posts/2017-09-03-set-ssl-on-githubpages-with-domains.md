@@ -16,9 +16,9 @@ Thanks to [CloudFlare](https://en.wikipedia.org/wiki/Cloudflare){:target="_blank
 3. Add your website to CloudFlare, you will be provided with new nameservers to use and they will contain all the old A records, which will make the transition from Github to Cloudflare easy with no downtime at all
 4. Open CloudFlare settings for your domain and Change the SSL to 'Full'  
 
-<img src="/images/2017_09_03_01.JPG" style="max-width:100%;">
+<img src="https://jawad.ca/images/2017_09_03_01.JPG" >
 5. Open page rules for your domain and add a new page rule 
 
-<img src="/images/2017_09_03_02.JPG" style="max-width:100%;">
+<img src="https://jawad.ca/images/2017_09_03_02.JPG">
 
 Please note that these changes may take up to 24 hours to propagate correctly. Until Github provides a native solution, this is the quickest way to accomplish this.
