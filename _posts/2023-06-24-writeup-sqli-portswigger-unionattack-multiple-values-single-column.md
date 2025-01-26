@@ -38,10 +38,10 @@ Based on this, let's concatenate the username and password and separate them wit
 
 
 
-<img src="/images/june2023/5.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/june2023/5.png">
 <br/>
 Et voilà! The returned string is `administrator~f286lusiqzjnv720jo3k`. Let's test it out:
 
-<img src="/images/june2023/6.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/june2023/6.png">
 <br/>
 and it's solved! 
