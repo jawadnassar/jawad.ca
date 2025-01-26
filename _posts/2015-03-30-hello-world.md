@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello, World!"
+categories: Blog
 ---
 
 This is a blog with random tech notes so I don't forget things. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
