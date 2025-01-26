@@ -16,3 +16,4 @@ All other contents and code are [MIT](https://github.com/jawadnassar/jawad.ca/bl
 - add tags to archive page
 - add search page
 - add more categories and migrate gitbook posts to jekyll
+- add favicons
