@@ -2,6 +2,7 @@
 layout: post
 title: "PortSwigger Web Security Academy Journey"
 date: 2023-05-22
+categories: [CTF, PortSwigger]
 ---
 
 Hello! I will be focusing on application security for a while, starting with the [PortSwigger Web Security Academy Tutorials](https://portswigger.net/web-security/learning-path){:target="_blank"}. I'll complement this with reading [The Web Application Hacker's Handbook, 2nd Edition by Dafydd Stuttard and Marcus Pinto](https://www.oreilly.com/library/view/the-web-application/9781118026472/){:target="_blank"}. Although it's a bit outdated (published in 2011), it is still highly recommended in the community as a valuable resource.
