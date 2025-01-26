@@ -3,6 +3,7 @@ layout: post
 title: "Dabbling in SOC and EDRs"
 date: 2023-09-09
 categories: Blog
+categories: [CTF, PortSwigger]
 ---
 
 Taking a brief break from AppSec, although I don't plan on becoming a SOC analyst, I stumbled upon this excellent tutorial by Eric Capuano on how to quickly get up to speed for SOC work.
