@@ -2,6 +2,7 @@
 layout: post
 title: "Transitioning from Jekyll to GitBook for my Notes"
 date: 2023-11-14
+categories: Blog
 ---
 
 Though I am a huge fan of Jekyll and its minimalist look and feel, using it for all CTF writeups and InfoSec notes could make things a bit crowded. I've found the WYSIWYG editor of GitBook to be far more comfortable for focusing on content, with less concern about image responsiveness, post layout, Markdown editors, and the like.
