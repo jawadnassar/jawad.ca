@@ -2,6 +2,7 @@
 layout: post
 title: "Mastery in the Gray"
 date: 2024-11-21
+categories: Blog
 ---
 
 I truly admire when someone masters their craft—when they know every detail and can speak about it for hours without preparation or effortlessly tackle any situation, resolving issues on the spot. There’s a certain charm to it. Every time I witness such mastery, a part of me feels inspired to return home and refine my own tools and craft, whatever my goal might be at that moment.  
