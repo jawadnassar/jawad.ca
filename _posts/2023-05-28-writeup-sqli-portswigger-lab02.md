@@ -5,7 +5,7 @@ date: 2023-05-28
 categories: [CTF, PortSwigger]
 ---
 
-<img src="/images/sqli-lab02/sqli-lab02-01.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-01.png">
  
  
 Lab #2 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/lab-login-bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass){:target="_blank"}
@@ -25,19 +25,19 @@ To solve the lab, perform a SQL injection attack that logs in to the application
 
 Trying to login by using a single quote (`'`) as the username, returns an internal server error, demonstrating that the app is vulnerable.
 
-<img src="/images/sqli-lab02/sqli-lab02-05.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-05.png">
  
  
 
 By intercepting the Login POST request and appending `'--` to the administrator username, we can bypass the remaining part of the query that checks the password.
 
-<img src="/images/sqli-lab02/sqli-lab02-04.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-04.png">
 
 <br/>
 And we're in!
 <br/>
 
-<img src="/images/sqli-lab02/sqli-lab02-03.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-03.png">
 
 <br/>
 Let's script the solution in Python. 
@@ -100,7 +100,7 @@ Testing the Python script:
 It worked! We can also validate it through Burp.
 <br/>
  
-<img src="/images/sqli-lab02/sqli-lab02-06.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-06.png">
 
 
 
