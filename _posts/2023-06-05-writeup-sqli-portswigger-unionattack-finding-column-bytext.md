@@ -2,6 +2,7 @@
 layout: post
 title: "Write-up: SQL injection UNION attack, finding a column containing text"
 date: 2023-06-05
+categories: [CTF, PortSwigger]
 ---
 
 Lab: [SQL injection UNION attack, finding a column containing text](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text){:target="_blank"}
