@@ -28,9 +28,9 @@ I encourage you to continue using these technologies but with an awareness of th
 
 Let's wrap up with a couple of [xkcd's comics](https://xkcd.com){:target="_blank"} that sum it up
 
-<img src="https://imgs.xkcd.com/comics/privacy_opinions.png" style="max-width:90%;">
+<img src="https://imgs.xkcd.com/comics/privacy_opinions.png">
 
 
-<img src="https://imgs.xkcd.com/comics/security.png" style="max-width:90%;">
+<img src="https://imgs.xkcd.com/comics/security.png">
 
 
