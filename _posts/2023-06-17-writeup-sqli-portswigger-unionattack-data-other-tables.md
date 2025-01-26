@@ -29,12 +29,12 @@ Knowing that we have a table named `users` with 2 columns, namely, `username` an
 
 Et voilà! The user `administrator` is returned with the password `u35dnobwat09aipkb3xn`.
 
-<img src="/images/june2023/3.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/june2023/3.png">
 
 
 lets try it out:
 
-<img src="/images/june2023/4.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/june2023/4.png" >
 
 
 and it's solved! 
