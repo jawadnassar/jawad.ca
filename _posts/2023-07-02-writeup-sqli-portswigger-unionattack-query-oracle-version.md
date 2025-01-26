@@ -2,6 +2,7 @@
 layout: post
 title: "Write-up: SQLi attack, querying the database type and version on Oracle"
 date: 2023-07-02
+categories: [CTF, PortSwigger]
 ---
 
 Lab: [SQL injection attack, querying the database type and version on Oracle](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle){:target="_blank"}
