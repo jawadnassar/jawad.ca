@@ -2,6 +2,7 @@
 layout: post
 title: "Write-up: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data"
 date: 2023-05-27
+categories: [CTF, PortSwigger]
 ---
 
 <img src="/images/sqli-lab01/sqli-lab1-4.png" style="max-width:90%;">
