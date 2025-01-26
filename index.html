@@ -19,6 +19,15 @@ layout: homepage
     {% endfor %}
   </ul>
 
+  <h5>Lab</h5>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.categories contains 'Lab' %}
+         <li>{{ post.date | date: "%F" }} -  <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endif %}    
+    {% endfor %}
+  </ul>
+  
   <h5>CTF</h5>
   <ul>
     {% for post in site.posts %}
