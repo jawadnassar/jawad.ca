@@ -35,11 +35,11 @@ Consequently, let's attempt to utilize an integer for the first column:
 
 The error disappears, affirming that the first column is indeed of integer type. As shown in the image below:
 
-<img src="/images/june2023/1.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/june2023/1.png">
 
 Continuing with this reasoning, we can deduce that the second column is of string type. We can solve this lab by injecting the suggested String  `hX7PcU`, as follows:
 `category=Gifts' UNION SELECT 1, 'hX7PcU', NULL--`, 
 
 and it's solved! 
 
-<img src="/images/june2023/2.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/june2023/2.png">
