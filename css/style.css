@@ -34,6 +34,9 @@ img {
   margin-bottom: 1rem;
   max-width:70%;
 }
+ul {
+  padding-bottom: 10px; 
+}
 .highlight {
   background-color: #272822;
 }
