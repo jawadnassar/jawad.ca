@@ -9,6 +9,7 @@ Hello, I'm Jawad! I've been immersed in software and computers for most of my li
 This blog contains random tech notes, documenting my learning journey to pivot further into application security. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
 
 
+
 ### Links
 - [GitBook](https://notes.jawad.ca){:target="_blank"}
 - [X ](https://x.com/jawadnassar){:target="_blank"}
@@ -18,8 +19,10 @@ This blog contains random tech notes, documenting my learning journey to pivot f
 - [RSS](https://jawad.ca/feed.xml){:target="_blank"}
 
 
+
 ### License
 Except where otherwise specified (the external information copied into the site belongs to the original authors), the text on this site is licensed under the Attribution-NonCommercial 4.0 International [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){:target="_blank"}. 
+
 
 
 ### Disclaimer
