@@ -5,7 +5,7 @@ date: 2023-05-29
 categories: [CTF, PortSwigger]
 ---
 
-<img src="/images/sqli-lab03/sqli-lab03-01.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-01.png">
 
 
 Lab #3 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns){:target="_blank"}
@@ -35,25 +35,25 @@ To solve the lab, determine the number of columns returned by the query by perfo
 
 First, we need to determine the number of columns returned by the query. Let's intercept the HTTP request when we filter on `Gifts` category and attempt a union SQL injection.
 
-<img src="/images/sqli-lab03/sqli-lab03-03.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-03.png">
 
 
 Checking with a single quote (`'`) reveals that the application is vulnerable.
 
-<img src="/images/sqli-lab03/sqli-lab03-04.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-04.png">
 
 Order by 1, 2, and 3 doesn't fail, but order by 4 fails, indicating that the query has only 3 columns.
 
-<img src="/images/sqli-lab03/sqli-lab03-05.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-05.png">
 
 <br/>
 
-<img src="/images/sqli-lab03/sqli-lab03-06.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-06.png">
 
 
 Knowing that we have 3 columns, let's replace the ORDER BY 3 with `' UNION SELECT NULL,NULL,NULL` in order to solve the lab.
 
-<img src="/images/sqli-lab03/sqli-lab03-07.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-07.png">
 
 <br/>
 
@@ -109,7 +109,7 @@ Executing the above script returns an answer of 3 columns, consistent with what 
 And we can confirm from Burp HTTP History that the SQL error no longer appears when we have 3 columns.
 
 
-<img src="/images/sqli-lab03/sqli-lab03-08.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/sqli-lab03/sqli-lab03-08.png">
 
 <br/>
 
