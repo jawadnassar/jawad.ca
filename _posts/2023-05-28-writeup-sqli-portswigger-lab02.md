@@ -2,6 +2,7 @@
 layout: post
 title: "Write-up: SQL injection vulnerability allowing login bypass"
 date: 2023-05-28
+categories: [CTF, PortSwigger]
 ---
 
 <img src="/images/sqli-lab02/sqli-lab02-01.png" style="max-width:90%;">
