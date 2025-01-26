@@ -3,13 +3,14 @@ layout: homepage
 ---
 
 <div>
+  <h5>Blog</h5>
   <ul>
     {% for post in site.posts %}
-    
       {% if post.categories contains 'Blog' %}
          <li>{{ post.date | date: "%F" }} -  <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endif %}
-    
+      {% endif %}    
     {% endfor %}
   </ul>
+
+  
 </div>
