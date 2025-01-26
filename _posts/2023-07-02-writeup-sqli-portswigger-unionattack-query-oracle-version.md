@@ -38,7 +38,7 @@ For instance, through this union attack `?category=Pets' UNION SELECT banner,'a'
 
 <br>
 
-<img src="/images/july2023/1.png" style="max-width:90%;">
+<img src="https://jawad.ca/images/july2023/1.png" >
 
 <br>
 
