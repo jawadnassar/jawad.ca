@@ -2,6 +2,7 @@
 layout: post
 title: "Write-up: SQLi UNION attack, retrieving data from other tables"
 date: 2023-06-17
+categories: [CTF, PortSwigger]
 ---
 
 Lab: [SQL injection UNION attack, retrieving data from other tables](https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-data-from-other-tables){:target="_blank"}
