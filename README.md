@@ -10,3 +10,9 @@ The following directories and their content are under [Creative Commons Attribut
 * images/
 
 All other contents and code are [MIT](https://github.com/jawadnassar/jawad.ca/blob/gh-pages/LICENSE.txt) Licensed.
+
+### TODO
+- move plausible script locally
+- add tags to archive page
+- add search page
+- add more categories and migrate gitbook posts to jekyll
