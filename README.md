@@ -11,9 +11,11 @@ The following directories and their content are under [Creative Commons Attribut
 
 All other contents and code are [MIT](https://github.com/jawadnassar/jawad.ca/blob/gh-pages/LICENSE.txt) Licensed.
 
-### TODO
+#### TODO
 - move plausible script locally
 - add tags to archive page
 - add search page
 - add more categories and migrate gitbook posts to jekyll
 - add favicons
+- migrate site to a standalone repo instead of this legacy forked one
+
