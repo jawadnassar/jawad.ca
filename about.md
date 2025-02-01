@@ -8,8 +8,6 @@ Hello, I'm Jawad! I've been immersed in software and computers for most of my li
 
 This blog contains random tech notes, documenting my learning journey to pivot further into application security. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
 
-
-
 ### Links
 - [GitBook](https://notes.jawad.ca){:target="_blank"}
 - [X ](https://x.com/jawadnassar){:target="_blank"}
@@ -18,18 +16,10 @@ This blog contains random tech notes, documenting my learning journey to pivot f
 - [LinkedIn](https://www.linkedin.com/in/jawadnassar/){:target="_blank"}
 - [RSS](https://jawad.ca/feed.xml){:target="_blank"}
 
-
-
 ### License
 Except where otherwise specified (the external information copied into the site belongs to the original authors), the text on this site is licensed under the Attribution-NonCommercial 4.0 International [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){:target="_blank"}. 
 
-
-
 ### Disclaimer
-- I will be utilizing LLMs to improve and enhance my written texts, thereby saving valuable time that would otherwise be spent on reviewing my grammar and English mistakes.
-- I am not an expert and acknowledge that I may make mistakes. This site serve as a means for me to document my learning journey.
-- Everything I share is solely for educational purposes and comes without any guarantee or liability. Please use the information at your own risk.
-- It is essential to refrain from conducting any pentesting activities on applications, devices, or networks that you do not own or lack permission to access.
+- Everything I share is solely for educational purposes and comes without any guarantee or liability.
 - The postings on this site are my own and don’t necessarily represent my employer’s positions, strategies or opinions.
-- If there is any plagiarism due to an LLM mistake, please notify me so I can address it.
 - Site Analytics is powered by [Plausible](https://plausible.io/data-policy){:target="_blank"} a privacy-friendly solution that doesn't collect any personal data or personally identifiable information.
