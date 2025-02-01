@@ -40,7 +40,7 @@ ul {
 .header-image
 {
     margin-bottom: 2rem;
-    width: 100%;
+    width: 100% !important;
     height: 250px;
     object-fit: cover;
 }
