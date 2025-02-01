@@ -2,6 +2,7 @@
 layout: post
 title: "Dabbling in SOC and EDRs"
 date: 2023-09-09
+header: "https://images.unsplash.com/photo-1629654297299-c8506221ca97"
 categories: Lab
 ---
 
