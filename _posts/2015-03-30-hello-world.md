@@ -2,6 +2,8 @@
 layout: post
 title: "Hello, World!"
 categories: Blog
+header: "https://images.unsplash.com/photo-1543332164-6e82f355badc"
+date: 2015-03-30
 ---
 
 This is a blog with random tech notes so I don't forget things. If you find something inaccurate or that could be fixed, please open a [pull request](https://github.com/jawadnassar/jawad.ca/pulls){:target="_blank"}.
