@@ -10,7 +10,7 @@ I want to start by saying that I personally use [Signal](https://www.signal.org/
 
 However, I notice many people who recommend these solutions blindly, without giving it a second thought. I always think that if I were a shady government department, I would do the exact same thing: promote a privacy-focused, open-source solution [that many content creators endorse repeatedly](https://www.vice.com/en/article/n7b4gg/anom-phone-arcaneos-fbi-backdoor){:target="_blank"}, displaying open-source audits, reverse-engineering the apps, and sniffing network requests to prove their trustworthiness.
 
-I understand that it's not always practical to scrutinize these solutions thoroughly, but here are some ways to challenge their security and privacy claims:
+Here are some ways to challenge their security and privacy claims:
 
 - Are they a non-profit organization? Or could they be bought tomorrow and legally change their algorithms?
 - Is their code open source? Has it been audited by a trusted third party?
@@ -27,7 +27,7 @@ I was recently watching Jack Ryan on Amazon Prime, and in one scene, it showed h
 
 I encourage you to continue using these technologies but with an awareness of the challenges and potential risks they may pose.
 
-Let's wrap up with a couple of [xkcd's comics](https://xkcd.com){:target="_blank"} that sum it up
+Let's wrap up with a couple of [xkcd's comics](https://xkcd.com){:target="_blank"} that sums it up
 
 <img src="https://imgs.xkcd.com/comics/privacy_opinions.png">
 
