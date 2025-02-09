@@ -34,6 +34,14 @@ img {
   margin-bottom: 1rem;
   max-width:70%;
 }
+
+@include media-breakpoint-up(sm) {
+  img {
+    @extend .img-fluid;
+    margin-bottom: 1rem;
+    max-width:98%;
+  }
+}
 ul {
   padding-bottom: 10px; 
 }
