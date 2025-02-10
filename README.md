@@ -8,6 +8,7 @@
 The following directories and their content are under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) :
 * _posts/
 * images/
+* images/unsplash are downloaded from [Unsplash](https://unsplash.com)
 * about/
 * guestbook/
 * Index page
