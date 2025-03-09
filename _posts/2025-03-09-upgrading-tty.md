@@ -6,7 +6,11 @@ header: "https://jawad.ca/images/unsplash/photo-1629654297299-c8506221ca97.jpeg"
 categories: [CHEATSHEET]
 ---
 
-When we establish a reverse shell, it is often very limited in functionality and prone to breaking. Basic features like command history navigation (using up/down arrows) or autocomplete may not work. To resolve these limitations, we can upgrade our TTY using the `python` or `stty` method. Below is a step-by-step guide on how to do this.
+When we establish a reverse shell, it is often very limited in functionality and prone to breaking. 
+
+Basic features like command history navigation (using up/down arrows) or autocomplete may not work. To resolve these limitations, we can upgrade our TTY using the `python` or `stty` method. 
+
+Below is a step-by-step guide on how to do this.
 
 **1. Spawn a TTY Shell**  
 Run this in the reverse shell:
@@ -44,4 +48,4 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 You now have a fully interactive TTY shell with command history, autocomplete, and full terminal features.
 
-Reference: [Ropnop Blog](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
+Reference: [Ropnop Blog](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/){:target="_blank"}
