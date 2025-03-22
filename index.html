@@ -4,13 +4,14 @@ layout: homepage
 
 <div>
 
-  <h5>Projects & Presentations</h5>
+  <h4>Projects & Presentations</h4>
   <ul>
     <li>2024-10-10 -  <a href="https://github.com/jawadnassar/Presentations/blob/main/AppSec%20for%20Developers/Introduction.pdf" target="_blank">AppSec for Developers: Introduction</a></li>
     <li>2015-07-05 -  <a href="https://github.com/jawadnassar/mikrotik-hotspot" target="_blank">Mikrotik hotspot login page based on bootstrap</a></li>
   </ul>
+  <hr>
   
-  <h5>Blog</h5>
+  <h4>Blog</h4>
   <ul>
     {% for post in site.posts %}
       {% if post.categories contains 'Blog' %}
@@ -18,8 +19,9 @@ layout: homepage
       {% endif %}    
     {% endfor %}
   </ul>
+  <hr>
 
-  <h5>Lab</h5>
+  <h4>Lab</h4>
   <ul>
     {% for post in site.posts %}
       {% if post.categories contains 'Lab' %}
@@ -27,8 +29,9 @@ layout: homepage
       {% endif %}    
     {% endfor %}
   </ul>
+  <hr>
 
-  <h5>CheatSheets</h5>
+  <h4>CheatSheets</h4>
   <ul>
     {% for post in site.posts %}
       {% if post.categories contains 'CHEATSHEET' %}
@@ -36,8 +39,9 @@ layout: homepage
       {% endif %}    
     {% endfor %}
   </ul>
+  <hr>
   
-  <h5>CTF</h5>
+  <h4>CTF</h4>
   <ul>
     {% for post in site.posts %}
       {% if post.categories contains 'CTF' %}
