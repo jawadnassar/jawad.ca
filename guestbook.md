@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Guest Book
+title: GUESTBOOK
 permalink: /guestbook/
 header: "https://images.unsplash.com/photo-1423592707957-3b212afa6733"
 ---
