@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ARCHIVE
+title: Archive
 permalink: /archive/
 header: "https://images.unsplash.com/photo-1505663912202-ac22d4cb3707"
 ---
