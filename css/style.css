@@ -21,7 +21,7 @@ a:active {
   color: #50A2FF;
 } 
 table, th, td {
-  border: 1px solid;
+  border: 1.5px solid;
 }
  table {
   @extend .table;
@@ -34,17 +34,18 @@ img {
   @extend .img-fluid;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  max-width:81%;
+  max-width:99%;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   img {
     @extend .img-fluid;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    max-width:98%;
+    max-width:99%;
   }  
-}
+} */
+
 #header-image
 {
     margin-bottom: 2rem;
