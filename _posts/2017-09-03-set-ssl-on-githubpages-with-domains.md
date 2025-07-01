@@ -2,7 +2,7 @@
 layout: post
 title: "HTTPS on Github Pages with a Custom Domain"
 date: 2017-09-03
-categories: Blog
+categories: Lab
 ---
 
 #### Update: [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/){:target="_blank"}
