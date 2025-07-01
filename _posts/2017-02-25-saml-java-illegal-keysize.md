@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Java Security: Illegal key size exception"
-categories: Blog
+date: 2017-02-25
+categories: Lab
 ---
 
 During the decryption of SAML IdP response the following exception was thrown:
