@@ -1,11 +1,11 @@
 body {
-   background-color: #1a1b26;
-  /* font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px; */
-  color: lightgray; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 1001px !important;
+   background-color: #1B2732;
+   font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   font-size: 20px; 
+   color: lightgray; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+   max-width: 1001px !important;
 }
 /* .navlinks {
   margin-bottom: 2rem;
