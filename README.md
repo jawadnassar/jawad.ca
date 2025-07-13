@@ -8,7 +8,6 @@ The following directories and their content are under [Creative Commons Attribut
 * images/
 * images/unsplash are downloaded from [Unsplash](https://unsplash.com)
 * about/
-* guestbook/
 * Index page
 
 All other contents and code are [MIT](https://github.com/jawadnassar/jawad.ca/blob/gh-pages/LICENSE.txt) Licensed.
