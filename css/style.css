@@ -1,5 +1,5 @@
 body {
-   background-color: #1B2732;
+   background-color: #24283b;
    font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    font-size: 20px; 
    color: lightgray; 
@@ -61,7 +61,7 @@ pre.highlight {
   padding: 1rem;
 }
 .highlight pre{
-    background-color: #24283b
+    background-color: #414868;
 }
 .highlight .hll{
     background-color: #24283b
