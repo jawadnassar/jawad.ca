@@ -3,9 +3,8 @@ body {
    font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    font-size: 20px; 
    color: lightgray; 
-   
    max-width: 1001px !important; */
-
+   
    margin-top: 20px;
    margin-bottom: 20px;
 }
@@ -63,7 +62,7 @@ pre.highlight {
   padding: 1rem;
 }
 .highlight pre{
-    background-color: #414868;
+    background-color: #333333;
 }
 .highlight .hll{
     background-color: #24283b
