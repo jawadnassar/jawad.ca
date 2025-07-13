@@ -13,7 +13,23 @@
   <body class="container">
     <h1 class="page-title">{{ site.name }}</h1>
     <h5>{{ site.tagline }}</h5>
-    <p class="navlinks"><a href="/about/">About</a> | <a href="/archive/">Archive</a> | <a href="https://notes.jawad.ca" target="_blank">GitBook</a></p>
+    <p class="navlinks">
+      <a href="/about/">About</a> | <a href="/archive/">Archive</a> | <a href="https://notes.jawad.ca" target="_blank">GitBook</a>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="DarkModeSwitcher" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+      </div>
+    </p>
     <div class="body">{{ content }}</div>
+    <script>
+    document.getElementById('DarkModeSwitcher').addEventListener('click',()=>{
+      if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        document.documentElement.setAttribute('data-bs-theme','light')
+      }
+      else {
+        document.documentElement.setAttribute('data-bs-theme','dark')
+      }
+    })
+    </script>
   </body>
 </html>
