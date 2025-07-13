@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hello, I'm Jawad! I've been immersed in software and computers for most of my life. Currently, I'm a senior engineering manager with a focus on application security. I've worn multiple hats in my career, from Software Developer to Platform Product Manager, Team Lead, and finally to Management.
+Hello, I'm Jawad! I've been immersed in software and computers for most of my life.
+Currently, I'm a senior engineering manager with a focus on application security. 
 
 ### Links
 - [GitBook](https://notes.jawad.ca){:target="_blank"}
