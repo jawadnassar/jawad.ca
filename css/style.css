@@ -1,26 +1,8 @@
 body {
-   /*background-color: #24283b;
-   font-family: -apple-system, BlinkMacSystemFont, Aptos, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-   font-size: 20px; 
-   color: lightgray; 
-   max-width: 1001px !important; */
-   
    margin-top: 20px;
    margin-bottom: 20px;
 }
-/* .navlinks {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-} 
- a:link {
-  color: #50A2FF;
-}
-a:visited {
-  color: #74619b;
-}
-a:active {
-  color: #50A2FF;
-} */
+
 table, th, td {
   border: 1.5px solid;
 }
@@ -35,17 +17,17 @@ img {
   @extend .img-fluid;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  max-width:99%;
+  max-width:75%;
 }
 
-/* @media (max-width: 576px) {
+ @media (max-width: 576px) {
   img {
     @extend .img-fluid;
     margin-bottom: 1rem;
     margin-top: 1rem;
     max-width:99%;
   }  
-} */
+} 
 
 #header-image
 {
@@ -56,7 +38,7 @@ img {
     max-width:100%;
 }
 .highlight {
-  background-color: #24283b;
+  background-color: #333333;
 }
 pre.highlight {
   padding: 1rem;
@@ -65,7 +47,7 @@ pre.highlight {
     background-color: #333333;
 }
 .highlight .hll{
-    background-color: #24283b
+    background-color: #333333;
 }
 .highlight .c{
     color:#75715e
