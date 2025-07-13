@@ -37,6 +37,13 @@ img {
     object-fit: cover;
     max-width:100%;
 }
+
+.language-plaintext {
+   background-color: #333333;
+   padding: 5px;
+   border-style: dashed;
+}   
+
 .highlight {
   background-color: #333333;
 }
