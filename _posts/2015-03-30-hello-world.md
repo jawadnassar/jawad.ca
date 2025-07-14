@@ -2,7 +2,6 @@
 layout: post
 title: "Hello, World!"
 categories: Blog
-header: "https://jawad.ca/images/unsplash/photo-1543332164-6e82f355badc.jpeg"
 date: 2015-03-30
 ---
 
