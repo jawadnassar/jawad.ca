@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Archive
 permalink: /archive/
 header: "https://jawad.ca/images/unsplash/photo-1505663912202-ac22d4cb3707.jpeg"
