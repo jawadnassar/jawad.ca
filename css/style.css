@@ -22,10 +22,6 @@ thead {
   background-color: #4C4E52;
 }
 
-tbody tr:hover {
-  background-color: #B8B398; /* Highlight on hover */
-}
-
 
 blockquote {
   @extend .blockquote;
