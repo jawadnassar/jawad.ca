@@ -6,8 +6,7 @@ categories: [CTF, HTB]
 ---
 
 ![](https://jawad.ca/images/Nibbles.png)
-### Enumeration
-
+## Enumeration
 ```shell
 kali@kali:~/Documents/Notes/CTF/Machines/nibbles/nibbles$ nmap 10.129.166.213 -sC -sV -oA nibbles
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-08 14:29 EST
