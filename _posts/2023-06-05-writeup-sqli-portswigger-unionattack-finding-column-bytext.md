@@ -1,24 +1,17 @@
 ---
 layout: post
-title: "Write-up: SQL injection UNION attack, finding a column containing text"
+title: "SQLi UNION attack, finding a column containing text"
 date: 2023-06-05
 categories: [CTF, PortSwigger]
 ---
 
-Lab: [SQL injection UNION attack, finding a column containing text](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text){:target="_blank"}
+## Description
 
-<br/>
-
-### Description
-
-This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response, so you can use a UNION attack to retrieve data from other tables. To construct such an attack, you first need to determine the number of columns returned by the query. The next step is to identify a column that is compatible with string data.
+This [lab](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text){:target="_blank"} contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response, so you can use a UNION attack to retrieve data from other tables. To construct such an attack, you first need to determine the number of columns returned by the query. The next step is to identify a column that is compatible with string data.
 
 The lab will provide a random value that you need to make appear within the query results. To solve the lab, perform a SQL injection UNION attack that returns an additional row containing the value provided. This technique helps you determine which columns are compatible with string data.
 
-<br/>
-
-
-### Steps
+## Steps
 
 First, we need to determine the number of columns returned by the query. Let's intercept the HTTP request when filtering for the `Gifts` category and attempting an `ORDER BY` command. 
 
