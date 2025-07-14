@@ -1,21 +1,13 @@
 ---
 layout: post
-title: "Write-up: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data"
+title: "SQLi vulnerability in WHERE clause allowing retrieval of hidden data"
 date: 2023-05-27
 categories: [CTF, PortSwigger]
 ---
 
-<img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-4.png">
+## Description
 
- <br/>
-
-Lab #1 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data){:target="_blank"}
-
- <br/>
-
-### Description
-
-This lab contains a SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
+This [lab](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data){:target="_blank"} contains an SQL injection vulnerability in the product category filter. When the user selects a category, the application carries out a SQL query like the following:
 
 ```sql
 SELECT * FROM products WHERE category = 'Gifts' AND released = 1
@@ -23,27 +15,23 @@ SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 
 To solve the lab, perform a SQL injection attack that causes the application to display details of all products in any category, both released and unreleased.
 
- <br/>
-
-### Steps
+## Steps
 
 Upon accessing the lab and filtering on the `Pets` category, I noticed a GET parameter named `category` in the URL. 
 
-To test the application's behavior, I initially tried adding a single quote (`'`) by navigating to `https://0abe00670490492181da436400ec000b.web-security-academy.net/filter?category='`.
+To test the application's behavior, I initially tried adding a single quote `'` by navigating to `https://0abe00670490492181da436400ec000b.web-security-academy.net/filter?category='`.
 
 This resulted in an `Internal Server Error`, which confirms that the application is indeed vulnerable.
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-1.png">
 
-By adding a single quote (`'`) to the `category` parameter, the application executes the following query against the database:
+By adding a single quote `'` to the `category` parameter, the application executes the following query against the database:
 
 ```sql
 SELECT * FROM products WHERE category = ''' AND released = 1
 ```
 
- <br/>
-
-#### Preparing a SQL injection payload:
+## Preparing a SQL injection payload:
 
 Let's try replacing `'` with `'--`. The key thing here is that the double-dash sequence `--` is a comment indicator in SQL, and means that the rest of the query is interpreted as a comment. This effectively removes the remainder of the query, so it no longer includes `AND released = 1`. 
 
@@ -68,7 +56,7 @@ SELECT * FROM products WHERE category = '' OR 1=1 -- AND released = 1
 ```
 
 
-The modified query will return all items where either the category is empty (`''`) or `1=1`. Since `1=1` is always true, the query will return all items.
+The modified query will return all items where either the category is empty `''` or `1=1`. Since `1=1` is always true, the query will return all items.
 
 This solves Lab #1! Congratulations.
 
