@@ -7,9 +7,11 @@ categories: Blog
 
 I noticed that a large percentage of traffic to my site comes from AI bots. 
 
-Even though many of them do not comply with `robots.txt`, I’ve included the following list in an attempt to block some of them:
+Even though many of them do not comply with `robots.txt` or `ai.txt`, I’ve included the following lists in an attempt to block some of them:
 
-```---
+## robots.txt
+```
+---
 layout: null
 sitemap: false
 ---
@@ -93,6 +95,70 @@ Disallow: /
 
 User-agent: YouBot
 Disallow: /
+```
+
+###ai.txt
+```
+# Spawning AI
+# Prevent datasets from using the following file types
+
+User-Agent: *
+Disallow: *.txt
+Disallow: *.pdf
+Disallow: *.doc
+Disallow: *.docx
+Disallow: *.odt
+Disallow: *.rtf
+Disallow: *.tex
+Disallow: *.wks
+Disallow: *.wpd
+Disallow: *.wps
+Disallow: *.html
+Disallow: *.bmp
+Disallow: *.gif
+Disallow: *.ico
+Disallow: *.jpeg
+Disallow: *.jpg
+Disallow: *.png
+Disallow: *.svg
+Disallow: *.tif
+Disallow: *.tiff
+Disallow: *.webp
+Disallow: *.aac
+Disallow: *.aiff
+Disallow: *.amr
+Disallow: *.flac
+Disallow: *.m4a
+Disallow: *.mp3
+Disallow: *.oga
+Disallow: *.opus
+Disallow: *.wav
+Disallow: *.wma
+Disallow: *.mp4
+Disallow: *.webm
+Disallow: *.ogg
+Disallow: *.avi
+Disallow: *.mov
+Disallow: *.wmv
+Disallow: *.flv
+Disallow: *.mkv
+Disallow: *.py
+Disallow: *.js
+Disallow: *.java
+Disallow: *.c
+Disallow: *.cpp
+Disallow: *.cs
+Disallow: *.h
+Disallow: *.css
+Disallow: *.php
+Disallow: *.swift
+Disallow: *.go
+Disallow: *.rb
+Disallow: *.pl
+Disallow: *.sh
+Disallow: *.sql
+Disallow: /
+Disallow: *
 ```
 
 
