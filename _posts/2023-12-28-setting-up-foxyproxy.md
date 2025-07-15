@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting FoxyProxy with Burp Suite"
+title: "Setting up FoxyProxy with Burp Suite"
 date: 2023-12-28
 categories: [Lab]
 ---
