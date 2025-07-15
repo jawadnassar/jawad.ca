@@ -95,7 +95,12 @@ Disallow: /
 
 User-agent: YouBot
 Disallow: /
+
+User-agent: Onespot-ScraperBot
+Disallow: /
 ```
+
+For an updated list, keep an eye on this [thread](https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/){:target="_blank"}.
 
 ## ai.txt
 ```
