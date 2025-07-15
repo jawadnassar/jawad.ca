@@ -83,4 +83,7 @@ Disallow: /
 User-agent: YouBot
 Disallow: /
 
+User-agent: Onespot-ScraperBot
+Disallow: /
+
 
