@@ -166,4 +166,10 @@ Disallow: /
 Disallow: *
 ```
 
+## Meta tag
+Adding the below meta tag to HTML headers
+
+```html
+<meta name="robots" content="noai, noimageai, DisallowAITraining">
+```
 
