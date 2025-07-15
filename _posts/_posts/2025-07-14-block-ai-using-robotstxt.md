@@ -1,0 +1,98 @@
+---
+layout: post
+title: "Blocking AI bots from Scraping your Jekyll Blog"
+date: 2025-07-14
+categories: Blog
+---
+
+I noticed that a large percentage of traffic to my site comes from AI bots. 
+
+Even though many of them do not comply with `robots.txt`, I’ve included the following list in an attempt to block some of them:
+
+```---
+layout: null
+sitemap: false
+---
+User-agent: *
+Sitemap: {{ "sitemap.xml" | absolute_url }}
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+User-agent: Applebot-Extended 
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot 
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+User-agent: PanguBot
+Disallow: /
+
+User-agent: ImagesiftBot 
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+```
+
+
