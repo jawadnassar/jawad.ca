@@ -43,11 +43,9 @@ SELECT * FROM products WHERE category = ''-- AND released = 1
 URL: 
 `https://0abe00670490492181da436400ec000b.web-security-academy.net/filter?category='--`
 
-
 As we can observe, the error disappeared, and the page returned no products. Perfect!
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-2.png">
-
 
 Next, let's try `' OR 1=1`, which will return the result of the following query:
 
@@ -55,41 +53,33 @@ Next, let's try `' OR 1=1`, which will return the result of the following query:
 SELECT * FROM products WHERE category = '' OR 1=1 -- AND released = 1
 ```
 
-
 The modified query will return all items where either the category is empty `''` or `1=1`. Since `1=1` is always true, the query will return all items.
 
 This solves Lab #1! Congratulations.
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-3.png" >
 
-
-
 However, we won't stop here. Let's go the extra mile and automate the SQLi payload. To begin, download Burp Suite Community Edition and ensure that the Proxy listener is enabled.
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-6.png">
-
 
 Download the FoxyProxy extension and add the Burp Suite proxy address and port.
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-5.png">
 
-
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-7.png">
 
-
 Enable the Burp proxy and navigate to the interface where Burp is running (`127.0.0.1:8080`). Save the CA certificate when prompted.
-<img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-10.png">
 
+<img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-10.png">
 
 To prevent Firefox SSL errors when using Burp, import the certificate we just downloaded by going to `about:preferences#privacy` in Firefox.
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-11.png">
 
-
 We are now ready to intercept our HTTP(s) traffic through Burp. As shown below, the intercept is on, and we can observe the GET `/filter?category=param` request.
 
 <img src="https://jawad.ca/images/sqli-lab01/sqli-lab1-8.png">
-
 
 To automate this SQL injection payload, we can use the below Python script:
 
@@ -119,16 +109,12 @@ else:
 	print("Didn't work.")
 ```
 
-
 To test our script with the Lab's temporary URL and the payload we initially tested (`' OR 1=1--`), you can use the following command:
 
 ```powershell
-> python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
+python3 sqli-lab01.py https://0a9d00e603476b2480e1766400eb00da.web-security-academy.net "' or 1=1--"
 ```
-
 
 et voilà! [Little bobby tables](https://xkcd.com/327/){:target="_blank"} would be very happy :-) 
 
 <img src="https://jawad.ca/images/sqli-lab01/exploits_of_a_mom.png">
-
-
