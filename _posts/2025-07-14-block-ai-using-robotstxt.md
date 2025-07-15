@@ -97,7 +97,7 @@ User-agent: YouBot
 Disallow: /
 ```
 
-###ai.txt
+## ai.txt
 ```
 # Spawning AI
 # Prevent datasets from using the following file types
