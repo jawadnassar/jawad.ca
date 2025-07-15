@@ -1,49 +1,36 @@
 ---
 layout: post
-title: "Write-up: SQL injection vulnerability allowing login bypass"
+title: "SQLi vulnerability allowing login bypass"
 date: 2023-05-28
 categories: [CTF, PortSwigger]
 ---
 
-<img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-01.png">
- 
- 
-Lab #2 by PortSwigger Web Security Academy: [https://portswigger.net/web-security/sql-injection/lab-login-bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass){:target="_blank"}
- 
- <br/>
- 
+## Description
 
-### Description
-
-This lab contains a SQL injection vulnerability in the login function.
+This [lab](https://portswigger.net/web-security/sql-injection/lab-login-bypass){:target="_blank"} contains a SQL injection vulnerability in the login function.
 
 To solve the lab, perform a SQL injection attack that logs in to the application as the `administrator` user.
 
- <br/>
-
-### Steps
+## Steps
 
 Trying to login by using a single quote (`'`) as the username, returns an internal server error, demonstrating that the app is vulnerable.
 
 <img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-05.png">
  
- 
-
 By intercepting the Login POST request and appending `'--` to the administrator username, we can bypass the remaining part of the query that checks the password.
 
 <img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-04.png">
 
-<br/>
+
 And we're in!
-<br/>
+
 
 <img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-03.png">
 
-<br/>
+
 Let's script the solution in Python. 
 
 It's a `POST` request that expects three parameters: `csrf`, `username`, and `password`.
-
 
 ```python
 import requests  
@@ -84,8 +71,6 @@ else:
 ```
 
 
- 
- <br/>
 Testing the Python script:
 
 ```powershell
@@ -94,11 +79,8 @@ Testing the Python script:
 ```
 
 
- 
- 
-<br/>
 It worked! We can also validate it through Burp.
-<br/>
+
  
 <img src="https://jawad.ca/images/sqli-lab02/sqli-lab02-06.png">
 
