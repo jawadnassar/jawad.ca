@@ -74,8 +74,7 @@ else:
 Testing the Python script:
 
 ```powershell
-> python3 sqli-lab02.py "https://0ab000eb0409a6428036c6eb00f500b7.web-security-academy.net/login" "administrator'--"
-
+python3 sqli-lab02.py "https://0ab000eb0409a6428036c6eb00f500b7.web-security-academy.net/login" "administrator'--"
 ```
 
 
