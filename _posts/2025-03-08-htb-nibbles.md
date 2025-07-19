@@ -94,7 +94,7 @@ After uploading the `shell.php` file under the "My Image" plugin page, I was una
 
 We could use Metasploit to automate the exploit, but exploiting it manually is a better learning exercise.
 
-Next, we try another reverse shell code using [revshells](https://www.revshells.com/){:target="_blank"}.
+Next, we try another reverse shell code using [revshells](https://www.revshells.com/){:target="_blank"} (Make sure to use your own IP and listener port).
 
 ![](https://jawad.ca/images/nibbles7.png)
 
