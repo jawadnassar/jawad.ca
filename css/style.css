@@ -25,7 +25,12 @@ thead {
 
 blockquote {
   @extend .blockquote;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding-left: 15px;
+   border-left: 3px solid #ccc;
 }
+    
 img {
   @extend .img-fluid;
   margin-bottom: 1rem;
