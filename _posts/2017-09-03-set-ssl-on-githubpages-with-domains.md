@@ -5,7 +5,7 @@ date: 2017-09-03
 categories: Lab
 ---
 
-#### Update: [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/){:target="_blank"}
+> Update: [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/){:target="_blank"}
 
 Since all browsers are trying to force [HTTPS](https://en.wikipedia.org/wiki/HTTPS){:target="_blank"}; it is highly recommended to setup it up on your domain name; however for websites with custom domains hosted on [Github pages](https://pages.github.com/){:target="_blank"} it wasn't supported because the certificates provided by Github is specific for `*.github.io` domains.  
 
