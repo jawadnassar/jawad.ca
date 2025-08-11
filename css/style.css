@@ -1,6 +1,7 @@
 body {
    margin-top: 20px;
    margin-bottom: 120px;
+   max-width: 1024px;
 }
 
 table, th, td {
@@ -38,17 +39,18 @@ img {
   @extend .img-fluid;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  max-width:75%;
+/*   max-width:75%; */
+   max-width:99%;
 }
 
- @media (max-width: 576px) {
+/*  @media (max-width: 576px) {
   img {
     @extend .img-fluid;
     margin-bottom: 1rem;
     margin-top: 1rem;
     max-width:99%;
   }  
-} 
+}  */
 
 h2, h3 {
    margin-top: 25px;
