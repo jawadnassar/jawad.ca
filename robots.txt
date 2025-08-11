@@ -3,7 +3,7 @@ layout: null
 sitemap: false
 ---
 User-agent: *
-Sitemap: https://jawad.ca/robots.txt
+Sitemap: {{ "sitemap.xml" | absolute_url }}
 
 User-agent: CCBot
 Disallow: /
