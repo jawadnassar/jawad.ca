@@ -1,15 +1,7 @@
-# Name of your site (displayed in the navbar)
 name: Jawad Nassar
-
-#  used as part of the title tag
 title: Jawad Nassar
-
 tagline: InfoSec, Engineering Management and Digital Privacy.
-
-# A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
 description: InfoSec, Engineering Management and Digital Privacy.
-
-# The full URL to your site. Note: site.github.url will be used by default.
 url: https://jawad.ca
 
 # If you're hosting your site at a Project repository on GitHub pages
@@ -18,7 +10,6 @@ url: https://jawad.ca
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-# global author information
 author: Jawad Nassar
 permalink: /:year/:month/:day/:title/
 
