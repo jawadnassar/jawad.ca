@@ -6,7 +6,8 @@ body {
 table, th, td {
   border: 1.5px solid;
 }
- table {
+
+table {
   @extend .table;
   @extend .table-striped;
   border-collapse: collapse;
@@ -21,17 +22,16 @@ th, td {
 thead {
   background-color: #4C4E52;
 }
-
     
 blockquote {
-  @extend .blockquote;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-left: 18px;
-    padding-bottom: 2px;
-    padding-top: 10px;
-    border-left: 7px solid #ccc;
-    background: darkslategrey;
+   @extend .blockquote;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding-left: 18px;
+   padding-bottom: 2px;
+   padding-top: 10px;
+   background: #0e3b45;
+   border-left: 7px solid #6edff6;
 }
     
 img {
