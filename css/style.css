@@ -22,13 +22,16 @@ thead {
   background-color: #4C4E52;
 }
 
-
+    
 blockquote {
   @extend .blockquote;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding-left: 15px;
-   border-left: 3px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 18px;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    border-left: 7px solid #ccc;
+    background: darkslategrey;
 }
     
 img {
