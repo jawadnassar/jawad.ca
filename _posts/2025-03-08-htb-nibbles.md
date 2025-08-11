@@ -97,12 +97,14 @@ We could use Metasploit to automate the exploit, but exploiting it manually is a
 Next, we try another reverse shell code using [revshells](https://www.revshells.com/){:target="_blank"}.
 
 
-> ***Note:*** Make sure to use your own IP and listener port
+> ***Note:***
+> Make sure to use your own IP and listener port
 
 
 ![](https://jawad.ca/images/nibbles7.png)
 
-> ***Note:*** In a real engagement, make sure to remove shell comments and obfuscate the code; otherwise, it's easy for WAFs and EDRs to detect and block the shell.
+> ***Note:***
+> In a real engagement, make sure to remove shell comments and obfuscate the code; otherwise, it's easy for WAFs and EDRs to detect and block the shell.
 
 
 ```php
