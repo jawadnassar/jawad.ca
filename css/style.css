@@ -3,27 +3,22 @@ body {
    margin-bottom: 120px;
    max-width: 1024px !important;
 }
-
 table, th, td {
   border: 1.5px solid;
 }
-
 table {
   @extend .table;
   @extend .table-striped;
   border-collapse: collapse;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} 
-    
+}     
 th, td {
   padding: 10px;
   border: 1px solid #ddd;
 }
-
 thead {
   background-color: #4C4E52;
-}
-    
+}    
 blockquote {
    @extend .blockquote;
    margin-top: 15px;
@@ -34,34 +29,20 @@ blockquote {
    background: #0e3b45;
    padding-right: 9px;
    border-left: 7px solid #6edff6;
-}
-    
+}    
 img {
-  @extend .img-fluid;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-/*   max-width:75%; */
+   @extend .img-fluid;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
    max-width:99%;
 }
-
-/*  @media (max-width: 576px) {
-  img {
-    @extend .img-fluid;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    max-width:99%;
-  }  
-}  */
-
 h2, h3 {
    margin-top: 25px;
 }
-
 .language-plaintext {
    background-color: #333333;
    padding: 2px;
 }   
-
 .highlight {
   background-color: #333333;
 }
