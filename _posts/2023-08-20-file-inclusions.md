@@ -47,3 +47,19 @@ RFIis a type of vulnerability that allows an attacker to include and execute rem
 >
 > you can find webshells in kali linux under `/usr/share/webshells/` , choose one of them and expose it via a python webserver to test it out.
 
+
+## PHP Wrappers  
+
+
+**PHP Wrappers** are powerful tools in PHP that modify how file operations are handled, often exploited in LFI attacks to execute or disclose code.
+
+#### Common PHP Wrappers and Usage Examples  
+
+
+* **php://filter**: Converts file data through filters. Attackers use it to read PHP files in base64 encoding.
+  * Example: `include('php://filter/read=convert.base64-encode/resource=index.php');`
+* **php://input**: Reads raw data from the request body, used to execute code by including `php://input` and sending code in the request body.
+  * Example: `include('php://input');` and POSTing PHP code.
+* **php://memory** and **php://temp**: Allow access to read/write temporary data streams. Can be used to execute transient code that doesn't leave traces on the disk.
+* **data://**: Allows inclusion of inline data. Can be exploited to execute arbitrary data as code.
+  * Example: `include('data://text/plain;base64,SGVsbG8sIFdvcmxkIQ==');`
