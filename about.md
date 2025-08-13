@@ -8,8 +8,8 @@ Hello, I'm Jawad! I've been immersed in software and computers for most of my li
 Currently, I'm an engineering manager with a focus on application security. 
 
 ## Links
-- [Twitter](https://x.com/jawadnassar){:target="_blank"}
 - [GitHub](https://github.com/jawadnassar){:target="_blank"}
+- [Twitter](https://x.com/jawadnassar){:target="_blank"}
 - [LinkedIn](https://www.linkedin.com/in/jawadnassar/){:target="_blank"}
 - [RSS](https://jawad.ca/feed.xml){:target="_blank"}
 
