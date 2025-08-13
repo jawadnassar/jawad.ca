@@ -34,12 +34,11 @@ brew install --cask iterm2
 6. Select your downloaded `.itermcolors` file.
 7. Once imported, select it from the list of Color Presets.
 
-<img src="https://1741726008-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FWeR6GyDgMhEly4lKIJwp%2Fuploads%2FCF4VanbzUFpBViEaAcHn%2Fimage.png?alt=media&#x26;token=7b4916cc-97e8-4636-8110-9021a8aeba2c" alt="">
-
+![](https://jawad.ca/images/ricemacos1.png)
 
 ## Step 4: Install Oh My Zsh
 
-```sh
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
@@ -49,14 +48,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 Syntax Highlighting:
 
 
-```sh
+```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 Auto-Suggestions:
 
 
-```sh
+```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
@@ -74,7 +73,7 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 Clone the Powerlevel10k repository:
 
 
-```sh
+```shell
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
@@ -82,14 +81,14 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 Update the `ZSH_THEME` line in your `~/.zshrc` file to use Powerlevel10k:
 
 
-```
+```shell
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 
 Apply the changes by sourcing `~/.zshrc`:
 
 
-```sh
+```shell
 source ~/.zshrc
 ```
 
@@ -105,7 +104,7 @@ To fully enjoy Powerlevel10k, you'll need a Nerd Font. Choose and download your 
 Install `colorls`:
 
 
-```sh
+```shell
 sudo gem install colorls
 ```
 
@@ -113,7 +112,7 @@ sudo gem install colorls
 To avoid typing `colorls` every time, we'll create an alias in the `.zshrc` file. This will allow us to use `ls` as a substitute command. Open `~/.zshrc` and add:
 
 
-```sh
+```shell
 alias ls='colorls'
 ```
 
@@ -121,12 +120,13 @@ alias ls='colorls'
 **Apply Changes**: For the alias to take effect, source your `.zshrc` file by running:
 
 
-```sh
+```shell
 source ~/.zshrc
 ```
 
 Et voilà!
 
-<img src="https://1741726008-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FWeR6GyDgMhEly4lKIJwp%2Fuploads%2FUA7XsUqF5yHvPCHhevBs%2Fimage.png?alt=media&#x26;token=81795207-5ae3-4e7e-81aa-300b7d83a27a" alt="">
+![](https://jawad.ca/images/ricemacos2.png)
+
 
 
