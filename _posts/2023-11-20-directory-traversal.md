@@ -39,6 +39,7 @@ An attacker can manipulate the `file` parameter to traverse directories, such as
 
   
 * If you encounter a parameter like `?file=report.pdf`, try altering it to `?file=../../../../etc/passwd`. If the server returns system files, it's vulnerable.
+* File Upload vulnerability: Using path traversal sequences (e.g., ../../) in uploaded file names to overwrite critical files.
 * Testing should include encoded and double-encoded traversal sequences to bypass common security filters.
 * You should test if you can find any ssh private keys under `/home/user/.ssh/id_rsa`  download it via `curl` then `ssh -i private_key -port 22 user@hostname`
 
@@ -51,7 +52,9 @@ An attacker can manipulate the `file` parameter to traverse directories, such as
 
 In Windows environments, Directory Traversal vulnerabilities manifest uniquely due to the different file system structure. 
 
-Attackers might use sequences like `..\` to traverse directories, aiming to access critical system files such as `C:\Windows\System32\`. A typical attack might involve manipulating web application input to redirect or access files using patterns like `..\..\..\Windows\win.ini` or `%SYSTEMROOT%\..\..\Windows\System32\drivers\etc\hosts`. 
+Attackers might use sequences like `..\` to traverse directories, aiming to access critical system files such as `C:\Windows\System32\`.  
+
+A typical attack might involve manipulating web application input to redirect or access files using patterns like `..\..\..\Windows\win.ini` or `%SYSTEMROOT%\..\..\Windows\System32\drivers\etc\hosts`. 
 
 Windows systems also have different character sets and path naming conventions (like using `\` instead of `/`), which can lead to variations in exploitation techniques. 
 
