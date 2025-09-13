@@ -2,7 +2,11 @@
 layout: post
 title: "SQLi UNION attack, determining the number of columns returned by the query"
 date: 2023-05-29
-categories: [CTF, PortSwigger]
+categories:
+  - CTF
+  - PortSwigger
+tags:
+  - SQLi
 ---
 
 ## SQL Injection Union attacks

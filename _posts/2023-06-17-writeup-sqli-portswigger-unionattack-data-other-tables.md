@@ -2,7 +2,11 @@
 layout: post
 title: "SQLi UNION attack, retrieving data from other tables"
 date: 2023-06-17
-categories: [CTF, PortSwigger]
+categories:
+  - CTF
+  - PortSwigger
+tags:
+  - SQLi
 ---
 
 ## Description

@@ -2,7 +2,11 @@
 layout: post
 title: "HTB: Nibbles"
 date: 2025-03-08
-categories: [CTF, HTB]
+categories:
+  - CTF
+  - HTB
+tags:
+  - Linux
 ---
 
 ![](https://jawad.ca/images/Nibbles.png)

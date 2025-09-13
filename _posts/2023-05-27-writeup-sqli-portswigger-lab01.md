@@ -2,7 +2,11 @@
 layout: post
 title: "SQLi vulnerability in WHERE clause allowing retrieval of hidden data"
 date: 2023-05-27
-categories: [CTF, PortSwigger]
+categories:
+  - CTF
+  - PortSwigger
+tags:
+  - SQLi
 ---
 
 ## Description

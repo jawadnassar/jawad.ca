@@ -2,7 +2,11 @@
 layout: post
 title: "SQLi UNION attack, finding a column containing text"
 date: 2023-06-05
-categories: [CTF, PortSwigger]
+categories:
+  - CTF
+  - PortSwigger
+tags:
+  - SQLi
 ---
 
 ## Description

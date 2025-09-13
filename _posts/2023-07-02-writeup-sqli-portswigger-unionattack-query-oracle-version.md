@@ -2,7 +2,11 @@
 layout: post
 title: "SQLi attack, querying the database type and version on Oracle"
 date: 2023-07-02
-categories: [CTF, PortSwigger]
+categories:
+  - CTF
+  - PortSwigger
+tags:
+  - SQLi
 ---
 
 ## Description
