@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <script data-goatcounter="https://jawad.goatcounter.com/count" async src="/js/gc.js"></script>
-    <noscript><img src="https://jawad.goatcounter.com/count?p=/homepage"></noscript>
     {% seo %} {% feed_meta %} 
   </head>
   <body class="container">
@@ -19,5 +18,6 @@
       <a href="/about/">About</a>
     </p>
     <div class="body">{{ content }}</div>
+    <img src="https://jawad.goatcounter.com/count?p=/pixel-{{  page.title | slugify }}">
   </body>
 </html>
