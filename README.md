@@ -1,4 +1,4 @@
-# Jawad.ca
+# legacy repo for personal blog
 * Powered by [Jekyll](http://jekyllrb.com/) a static website generator.
 * Hosted on [Github Pages](https://pages.github.com/).
 
